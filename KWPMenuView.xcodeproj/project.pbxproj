@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7CD9171F96F7C400DF2501 /* UIViewController+ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CD9161F96F7C400DF2501 /* UIViewController+ContentView.m */; };
+		DB7CD91A1F970B4400DF2501 /* UIViewController+KWPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CD9191F970B4400DF2501 /* UIViewController+KWPRootViewController.m */; };
+		DB7CD91E1F9711AC00DF2501 /* KWPMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CD91D1F9711AC00DF2501 /* KWPMenuViewController.m */; };
+		DB7CD9471F97308C00DF2501 /* KWPContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CD9461F97308C00DF2501 /* KWPContentViewController.m */; };
+		DB7CD94A1F97319700DF2501 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CD9491F97319700DF2501 /* MainViewController.m */; };
+		DB8B10E31F96DD6C00266E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8B10E21F96DD6C00266E60 /* main.m */; };
+		DB8B10E61F96DD6C00266E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8B10E51F96DD6C00266E60 /* AppDelegate.m */; };
+		DB8B10E91F96DD6C00266E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8B10E81F96DD6C00266E60 /* ViewController.m */; };
+		DB8B10EC1F96DD6C00266E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8B10EA1F96DD6C00266E60 /* Main.storyboard */; };
+		DB8B10EE1F96DD6C00266E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8B10ED1F96DD6C00266E60 /* Assets.xcassets */; };
+		DB8B10F11F96DD6C00266E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8B10EF1F96DD6C00266E60 /* LaunchScreen.storyboard */; };
+		DB8B10FA1F96DDF200266E60 /* KWPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8B10F91F96DDF200266E60 /* KWPRootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB7CD9151F96F7C400DF2501 /* UIViewController+ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ContentView.h"; sourceTree = "<group>"; };
+		DB7CD9161F96F7C400DF2501 /* UIViewController+ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ContentView.m"; sourceTree = "<group>"; };
+		DB7CD9181F970B4400DF2501 /* UIViewController+KWPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KWPRootViewController.h"; sourceTree = "<group>"; };
+		DB7CD9191F970B4400DF2501 /* UIViewController+KWPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KWPRootViewController.m"; sourceTree = "<group>"; };
+		DB7CD91C1F9711AC00DF2501 /* KWPMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPMenuViewController.h; sourceTree = "<group>"; };
+		DB7CD91D1F9711AC00DF2501 /* KWPMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPMenuViewController.m; sourceTree = "<group>"; };
+		DB7CD9451F97308C00DF2501 /* KWPContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPContentViewController.h; sourceTree = "<group>"; };
+		DB7CD9461F97308C00DF2501 /* KWPContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPContentViewController.m; sourceTree = "<group>"; };
+		DB7CD9481F97319700DF2501 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DB7CD9491F97319700DF2501 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DB8B10DE1F96DD6C00266E60 /* KWPMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWPMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8B10E21F96DD6C00266E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB8B10E41F96DD6C00266E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB8B10E51F96DD6C00266E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB8B10E71F96DD6C00266E60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB8B10E81F96DD6C00266E60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB8B10EB1F96DD6C00266E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB8B10ED1F96DD6C00266E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB8B10F01F96DD6C00266E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB8B10F21F96DD6C00266E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8B10F81F96DDF200266E60 /* KWPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWPRootViewController.h; sourceTree = "<group>"; };
+		DB8B10F91F96DDF200266E60 /* KWPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWPRootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8B10DB1F96DD6C00266E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB8B10D51F96DD6C00266E60 = {
+			isa = PBXGroup;
+			children = (
+				DB8B10E01F96DD6C00266E60 /* KWPMenuView */,
+				DB8B10DF1F96DD6C00266E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8B10DF1F96DD6C00266E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B10DE1F96DD6C00266E60 /* KWPMenuView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8B10E01F96DD6C00266E60 /* KWPMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B10E41F96DD6C00266E60 /* AppDelegate.h */,
+				DB8B10E51F96DD6C00266E60 /* AppDelegate.m */,
+				DB8B10E71F96DD6C00266E60 /* ViewController.h */,
+				DB8B10E81F96DD6C00266E60 /* ViewController.m */,
+				DB8B10F81F96DDF200266E60 /* KWPRootViewController.h */,
+				DB8B10F91F96DDF200266E60 /* KWPRootViewController.m */,
+				DB7CD91C1F9711AC00DF2501 /* KWPMenuViewController.h */,
+				DB7CD91D1F9711AC00DF2501 /* KWPMenuViewController.m */,
+				DB7CD9451F97308C00DF2501 /* KWPContentViewController.h */,
+				DB7CD9461F97308C00DF2501 /* KWPContentViewController.m */,
+				DB7CD9151F96F7C400DF2501 /* UIViewController+ContentView.h */,
+				DB7CD9161F96F7C400DF2501 /* UIViewController+ContentView.m */,
+				DB7CD9181F970B4400DF2501 /* UIViewController+KWPRootViewController.h */,
+				DB7CD9191F970B4400DF2501 /* UIViewController+KWPRootViewController.m */,
+				DB8B10EA1F96DD6C00266E60 /* Main.storyboard */,
+				DB8B10ED1F96DD6C00266E60 /* Assets.xcassets */,
+				DB8B10EF1F96DD6C00266E60 /* LaunchScreen.storyboard */,
+				DB8B10F21F96DD6C00266E60 /* Info.plist */,
+				DB8B10E11F96DD6C00266E60 /* Supporting Files */,
+				DB7CD9481F97319700DF2501 /* MainViewController.h */,
+				DB7CD9491F97319700DF2501 /* MainViewController.m */,
+			);
+			path = KWPMenuView;
+			sourceTree = "<group>";
+		};
+		DB8B10E11F96DD6C00266E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B10E21F96DD6C00266E60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8B10DD1F96DD6C00266E60 /* KWPMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8B10F51F96DD6C00266E60 /* Build configuration list for PBXNativeTarget "KWPMenuView" */;
+			buildPhases = (
+				DB8B10DA1F96DD6C00266E60 /* Sources */,
+				DB8B10DB1F96DD6C00266E60 /* Frameworks */,
+				DB8B10DC1F96DD6C00266E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWPMenuView;
+			productName = KWPMenuView;
+			productReference = DB8B10DE1F96DD6C00266E60 /* KWPMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8B10D61F96DD6C00266E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = glocal;
+				TargetAttributes = {
+					DB8B10DD1F96DD6C00266E60 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M69B7MK4BC;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DB8B10D91F96DD6C00266E60 /* Build configuration list for PBXProject "KWPMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB8B10D51F96DD6C00266E60;
+			productRefGroup = DB8B10DF1F96DD6C00266E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8B10DD1F96DD6C00266E60 /* KWPMenuView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8B10DC1F96DD6C00266E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8B10F11F96DD6C00266E60 /* LaunchScreen.storyboard in Resources */,
+				DB8B10EE1F96DD6C00266E60 /* Assets.xcassets in Resources */,
+				DB8B10EC1F96DD6C00266E60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8B10DA1F96DD6C00266E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CD91A1F970B4400DF2501 /* UIViewController+KWPRootViewController.m in Sources */,
+				DB7CD9471F97308C00DF2501 /* KWPContentViewController.m in Sources */,
+				DB8B10E91F96DD6C00266E60 /* ViewController.m in Sources */,
+				DB8B10E61F96DD6C00266E60 /* AppDelegate.m in Sources */,
+				DB7CD94A1F97319700DF2501 /* MainViewController.m in Sources */,
+				DB7CD9171F96F7C400DF2501 /* UIViewController+ContentView.m in Sources */,
+				DB8B10E31F96DD6C00266E60 /* main.m in Sources */,
+				DB7CD91E1F9711AC00DF2501 /* KWPMenuViewController.m in Sources */,
+				DB8B10FA1F96DDF200266E60 /* KWPRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB8B10EA1F96DD6C00266E60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8B10EB1F96DD6C00266E60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB8B10EF1F96DD6C00266E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8B10F01F96DD6C00266E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB8B10F31F96DD6C00266E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB8B10F41F96DD6C00266E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8B10F61F96DD6C00266E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 根佑 朴 (5FD4VCQ3KT)";
+				DEVELOPMENT_TEAM = M69B7MK4BC;
+				INFOPLIST_FILE = KWPMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.glocal.KWPMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb2f8c15-7877-4c45-808a-99a653120c1e";
+				PROVISIONING_PROFILE_SPECIFIER = "Glocal-Wildcat-20170529";
+			};
+			name = Debug;
+		};
+		DB8B10F71F96DD6C00266E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M69B7MK4BC;
+				INFOPLIST_FILE = KWPMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.glocal.KWPMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb2f8c15-7877-4c45-808a-99a653120c1e";
+				PROVISIONING_PROFILE_SPECIFIER = "Glocal-Wildcat-20170529";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8B10D91F96DD6C00266E60 /* Build configuration list for PBXProject "KWPMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8B10F31F96DD6C00266E60 /* Debug */,
+				DB8B10F41F96DD6C00266E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8B10F51F96DD6C00266E60 /* Build configuration list for PBXNativeTarget "KWPMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8B10F61F96DD6C00266E60 /* Debug */,
+				DB8B10F71F96DD6C00266E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8B10D61F96DD6C00266E60 /* Project object */;
+}
