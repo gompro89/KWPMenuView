@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="590" y="672"/>
         </scene>
-        <!--View Controller-->
+        <!--MainView-->
         <scene sceneID="F1P-v6-oin">
             <objects>
-                <viewController id="k6z-My-ljt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k6z-My-ljt" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sbh-H6-9K2"/>
                         <viewControllerLayoutGuide type="bottom" id="z9I-ss-HN3"/>
@@ -74,7 +74,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95387828350000003" green="0.30099424720000001" blue="0.1568858474" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ez9-sG-bFT"/>
+                    <navigationItem key="navigationItem" title="MainView" id="wkz-Uc-jil">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Q53-Hi-2Ub">
+                            <connections>
+                                <action selector="showMenu:" destination="k6z-My-ljt" id="Hn4-hv-PJe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sto-e8-q4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

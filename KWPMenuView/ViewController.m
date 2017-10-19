@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "UIViewController+KWPRootViewController.h"
-#import "UIViewController+ContentView.h"
 
 @interface ViewController ()
 
@@ -20,11 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.contentController = [self.storyboard instantiateViewControllerWithIdentifier:@"KWPContentViewController"];
-    [self setMenuController:[self.storyboard instantiateViewControllerWithIdentifier:@"KWPMenuViewController"]
-              directionType:MENU_DIRECTION_LEFT
+    UIStoryboard *rootStoryBoard = [UIStoryboard storyboardWithName:@"Root" bundle:nil];
+    self.contentController = [rootStoryBoard instantiateViewControllerWithIdentifier:@"KWPContentViewController"];
+    [self setMenuController:[rootStoryBoard instantiateViewControllerWithIdentifier:@"KWPMenuViewController"]
+              directionType:MENU_DIRECTION_BOTTOM
                  widthRatio:0.7];
     
+    [self setContentTouch_HideMenuMode:YES];
 }
 
 - (void)didReceiveMemoryWarning {
