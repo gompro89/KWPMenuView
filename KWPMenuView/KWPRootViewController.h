@@ -23,6 +23,7 @@ typedef enum : NSUInteger {
 @property (assign, nonatomic, readonly) CGFloat        menuWidthRatio;
 
 @property (strong, nonatomic) UINavigationController *contentController;
+@property (assign, nonatomic) BOOL contentTouch_HideMenuMode;
 
 @property (strong, nonatomic, readonly) UIViewController *menuController;
 - (void)setMenuController:(UIViewController *)menuController

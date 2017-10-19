@@ -14,6 +14,7 @@
 @interface KWPRootViewController ()
 @property (assign,nonatomic) CGRect menuShowFrame;
 @property (assign,nonatomic) CGRect menuHideFrame;
+@property (strong,nonatomic) UIButton *toutchHideMenuCoverButton;
 
 @end
 
@@ -42,8 +43,16 @@
         
     }
     _contentController = contentController;
+   
+    _toutchHideMenuCoverButton = [[UIButton alloc] initWithFrame:_contentController.view.frame];
+    [_toutchHideMenuCoverButton setBackgroundColor:[UIColor clearColor]];
+    [_toutchHideMenuCoverButton addTarget:self action:@selector(touchContentView) forControlEvents:UIControlEventTouchUpInside];
+    [_toutchHideMenuCoverButton setUserInteractionEnabled:NO];
+    [_contentController.view addSubview:_toutchHideMenuCoverButton];
     
     [_contentController setContentViewInViewController:self];
+    
+    
 }
 
 - (void)setMenuController:(UIViewController *)menuController
@@ -152,29 +161,31 @@
         _isShowing = YES;
     }
     
+    //setContentTouch_HideMenuMode
+    [_toutchHideMenuCoverButton setUserInteractionEnabled:_contentTouch_HideMenuMode];
 }
 
-static void extracted(KWPRootViewController *object) {
-    [UIView animateWithDuration:0.2
-                     animations:^{
-                         [object->_menuController.view setFrame:object->_menuHideFrame];
-                     }
-                     completion:^(BOOL finished) {
-                         object->_isShowing = NO;
-                     }];
-}
 
 -(void)hideMenu:(BOOL)animate
 {
     if (animate)
     {
-        extracted(self);
+        [UIView animateWithDuration:0.2
+                         animations:^{
+                             [_menuController.view setFrame:_menuHideFrame];
+                         }
+                         completion:^(BOOL finished) {
+                             _isShowing = NO;
+                         }];
     }
     else
     {
         [_menuController.view setFrame:_menuHideFrame];
         _isShowing = NO;
     }
+    
+    //setContentTouch_HideMenuMode
+    [_toutchHideMenuCoverButton setUserInteractionEnabled:NO];
 }
 
 -(void)showNHideMenu:(BOOL)animate
@@ -185,6 +196,12 @@ static void extracted(KWPRootViewController *object) {
         [self hideMenu:animate];
 }
 
+#pragma mark Content Touch HideAction
+
+-(void)touchContentView
+{
+    [self hideMenu:YES];
+}
 
 
 
