@@ -154,21 +154,18 @@
     
 }
 
-static void extracted(KWPRootViewController *object) {
-    [UIView animateWithDuration:0.2
-                     animations:^{
-                         [object->_menuController.view setFrame:object->_menuHideFrame];
-                     }
-                     completion:^(BOOL finished) {
-                         object->_isShowing = NO;
-                     }];
-}
 
 -(void)hideMenu:(BOOL)animate
 {
     if (animate)
     {
-        extracted(self);
+        [UIView animateWithDuration:0.2
+                         animations:^{
+                             [_menuController.view setFrame:_menuHideFrame];
+                         }
+                         completion:^(BOOL finished) {
+                             _isShowing = NO;
+                         }];
     }
     else
     {
